@@ -1,0 +1,106 @@
+@import url('https://fonts.cdnfonts.com/css/edit-undo-brk');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Edit Undo BRK', sans-serif;
+  font-size: x-large;
+  background-color: #000;
+  color: #fff;
+}
+
+.card-container {
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding: 0 15px;
+}
+
+.card {
+  width: 100%;
+  background-color: #333;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #999;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer li {
+  margin-right: 20px;
+}
+
+.footer li:last-child {
+  margin-right: 0;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.embed-responsive-16by9 {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.embed-responsive-16by9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mb-6 {
+  margin-bottom: 5rem;
+}
+
+.mt-6 {
+  margin-top: 5rem;
+}
+
+.ansii-info {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.icon-soundwave {
+  height: 1em;
+  max-height: 1em;
+  vertical-align: middle;
+}
+
+.signal-adjust {
+  margin-top: 1.5rem;
+}
+
+/* Adjust the first paragraph on desktop */
+@media (min-width: 768px) {
+  .intro-paragraph {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .signal-adjust {
+    margin-top: 0rem;
+  }
+}
